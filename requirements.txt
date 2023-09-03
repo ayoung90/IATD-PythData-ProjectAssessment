@@ -9,3 +9,5 @@ torchvision
 tqdm
 openpyxl
 jupyterlab
+pytest
+testbook
