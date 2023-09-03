@@ -1,0 +1,11 @@
+# Note: Copied from IATD-Python-Data
+# @todo -  add anything missing from below
+ipywidgets
+matplotlib
+numpy
+pandas
+torch
+torchvision
+tqdm
+openpyxl
+jupyterlab
