@@ -31,6 +31,8 @@ def test_csv_load(tb):
     #pdb.set_trace()
     
     assert type(stats_ref2) == str
+
+#### TASK 1 - LOAD YOUR DATA ####
     
 def test_games_stats_players_columns(tb):
     """ validates that one column from each file exists in joined dataframe
@@ -45,3 +47,53 @@ def test_games_stats_players_columns(tb):
     assert key_columns.__contains__("venue") #games
     assert key_columns.__contains__("height") #players
     assert key_columns.__contains__("Handballs") #stats
+
+#TODO Any futher tests for task 1 ??
+
+#### TASK 2 - PLOT ONE PLAYER ####
+    
+def test_cum_column(tb):
+    """Checks that the "Goals (Cumulative)" is added to player_stats_desc
+
+    Args:
+        tb (testbook): afl_stats jupyter notebook
+    """
+    #TODO Implement test :)
+    
+#TODO Any futher tests for task 2 ??    
+    
+#### TASK 3 - PLOT MULTIPLE PLAYERS ####
+
+def test_players_masks(tb):
+    """Checks that the masks filter only to the specifed player
+
+    Args:
+        tb (testbook): afl_stats jupyter notebook
+    """
+    
+    #TODO Implement test :)
+    
+def test_players_cum_columns(tb):
+    """Checks that the "Goals (Cumulative)" column is added to all dataframes
+
+    Args:
+        tb (testbook): afl_stats jupyter notebook
+    """   
+    
+    #TODO Implement test :)
+    
+def test_graph_attributes(tb):
+    """Checks that the graphs x & y labels are correct?
+
+    Args:
+        tb (testbook): afl_stats jupyter notebook
+    """
+    
+    #TODO Implement test :)        
+
+#TODO Any futher tests for task 3 ??    
+
+#### TASK 4 - LINEAR REGRESSION ####
+
+#TODO Tests for task 4
+    
